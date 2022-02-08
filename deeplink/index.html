@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	</head>
+	<body>
+		<script type="text/javascript">
+			window.onload = function () {
+				console.log('on load...')
+
+				// TODO fetch browser type, version and OS
+				console.log(navigator)
+				var intentSupported = true
+
+				var fallbackUrl = "https%3A%2F%2Ftonyskulk.github.io%2Fdeliable"
+				if (intentSupported) {
+					console.log('intent supported')
+					// default case (chrome version 25+, firefox, facebook in-app browser)
+					var intentLink = "intent://scan/#Intent;scheme=deliable;package=org.rguesttestapp.app;S.browser_fallback_url=" + fallbackUrl + ";end"
+					window.location.replace(intentLink)
+				} else {
+					console.log('intent NOT supported')
+					// chrome version < 25, android browser, other in-app browsers
+					// TODO iframe or relocate with the original deeplink
+					window.location.replace("deliable://restaurant/123")
+					setTimeout(() => {
+						console.log('triggering relocate')
+						window.location.replace("fallbackUrl")
+					}, 2000)
+				}
+			}
+		</script>
+	</body>
+</html>
