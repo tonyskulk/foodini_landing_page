@@ -35,21 +35,22 @@
                     enctype="multipart/form-data">
                     <div class="row gtr-uniform">
                         <div class="col-6 col-12-xsmall">
-                            <input type="text" name="name" id="name" value="" placeholder="Ihr Name" />
+                            <input type="text" name="name" id="name" value="" placeholder="Ihr Name" required />
                         </div>
                         <div class="col-6 col-12-xsmall">
-                            <input type="email" name="email" id="email" value="" placeholder="Ihre Email" />
+                            <input type="email" name="email" id="email" value="" placeholder="Ihre Email" required />
                         </div>
                         <div class="col-6 col-12-xsmall">
-                            <input type="text" name="phone" id="phone" value="" placeholder="Ihre Telefonnummer" />
+                            <input type="tel" name="phone" id="phone" value="" placeholder="Ihre Telefonnummer"
+                                pattern="^[0-9-+\s()]*$" required />
                         </div>
                         <div class="col-6 col-12-xsmall">
                             <input type="text" name="restaurantname" id="restaurantname" value=""
-                                placeholder="Der Name Ihres Restaurants" />
+                                placeholder="Der Name Ihres Restaurants" required />
                         </div>
                         <div class="col-6 col-12-xsmall">
                             <input type="text" name="restaurantaddress" id="restaurantaddress" value=""
-                                placeholder="Addresse Ihres Restaurants" />
+                                placeholder="Addresse Ihres Restaurants" required />
                         </div>
                         <!-- <div class="col-6 col-12-xsmall">
                             <input type="file" accept="image/*,.pdf" name="menu" id="restaurant-menu" value=""
