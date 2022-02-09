@@ -2004,6 +2004,7 @@ input, select, textarea {
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="tel"],
 	select,
 	textarea {
 		-moz-appearance: none;
@@ -2025,6 +2026,7 @@ input, select, textarea {
 		input[type="text"]:invalid,
 		input[type="password"]:invalid,
 		input[type="email"]:invalid,
+		input[type="tel"]:invalid,
 		select:invalid,
 		textarea:invalid {
 			box-shadow: none;
@@ -2056,6 +2058,7 @@ input, select, textarea {
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="tel"],
 	select {
 		height: 2.75em;
 	}
@@ -2161,6 +2164,7 @@ input, select, textarea {
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="tel"],
 	select,
 	textarea {
 		color: inherit;
@@ -2171,6 +2175,7 @@ input, select, textarea {
 		input[type="text"]:focus,
 		input[type="password"]:focus,
 		input[type="email"]:focus,
+		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
 			border-color: #6c63ff;
@@ -2989,6 +2994,7 @@ input, select, textarea {
 			.wrapper.style1 input[type="text"],
 			.wrapper.style1 input[type="password"],
 			.wrapper.style1 input[type="email"],
+			.wrapper.style1 input[type="tel"],
 			.wrapper.style1 select,
 			.wrapper.style1 textarea {
 				color: inherit;
@@ -2999,6 +3005,7 @@ input, select, textarea {
 				.wrapper.style1 input[type="text"]:focus,
 				.wrapper.style1 input[type="password"]:focus,
 				.wrapper.style1 input[type="email"]:focus,
+				.wrapper.style1 input[type="tel"]:focus,
 				.wrapper.style1 select:focus,
 				.wrapper.style1 textarea:focus {
 					border-color: #ffffff;
@@ -3200,6 +3207,7 @@ input, select, textarea {
 			.wrapper.style2 input[type="text"],
 			.wrapper.style2 input[type="password"],
 			.wrapper.style2 input[type="email"],
+			.wrapper.style2 input[type="tel"],
 			.wrapper.style2 select,
 			.wrapper.style2 textarea {
 				color: inherit;
@@ -3210,6 +3218,7 @@ input, select, textarea {
 				.wrapper.style2 input[type="text"]:focus,
 				.wrapper.style2 input[type="password"]:focus,
 				.wrapper.style2 input[type="email"]:focus,
+				.wrapper.style2 input[type="tel"]:focus,
 				.wrapper.style2 select:focus,
 				.wrapper.style2 textarea:focus {
 					border-color: #6c63ff;
@@ -3414,6 +3423,7 @@ input, select, textarea {
 			.wrapper.style3 input[type="text"],
 			.wrapper.style3 input[type="password"],
 			.wrapper.style3 input[type="email"],
+			.wrapper.style3 input[type="tel"],
 			.wrapper.style3 select,
 			.wrapper.style3 textarea {
 				color: inherit;
@@ -3424,6 +3434,7 @@ input, select, textarea {
 				.wrapper.style3 input[type="text"]:focus,
 				.wrapper.style3 input[type="password"]:focus,
 				.wrapper.style3 input[type="email"]:focus,
+				.wrapper.style3 input[type="tel"]:focus,
 				.wrapper.style3 select:focus,
 				.wrapper.style3 textarea:focus {
 					border-color: #6c63ff;
@@ -3677,6 +3688,7 @@ input, select, textarea {
 		#header input[type="text"],
 		#header input[type="password"],
 		#header input[type="email"],
+		#header input[type="tel"],
 		#header select,
 		#header textarea {
 			color: inherit;
@@ -3687,6 +3699,7 @@ input, select, textarea {
 			#header input[type="text"]:focus,
 			#header input[type="password"]:focus,
 			#header input[type="email"]:focus,
+			#header input[type="tel"]:focus,
 			#header select:focus,
 			#header textarea:focus {
 				border-color: #ffffff;
